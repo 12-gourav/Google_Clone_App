@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Slab&display=swap');
+
+:root 
+{
+	--primary:#4458dc;
+	--light:#F0F0F0;
+	--secondry:#854fee;
+	--title:#141313;
+	--text:#777777;
+	--border:#201f1f17;
+	--gradient:linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+	--shadow:0px 10px 30px rgba(118,85,225,0.3);
+	--box-shadow:0px 10px 30px rgba(57,56,61,0.205);
+	  --gp:#154360;
+  --gp2:#4782BA;
+}
+
+header
+{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+header .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 2rem;
+}
+header .container .box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 80%;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(118,85,225,0.1);
+}
+header .container .box input{
+    outline: none;
+    border: none;
+    width: 80%;
+    height: 100%;
+    padding: 0 1rem;
+    font-family: 'Roboto Slab', serif;
+}
+header .container .box button{
+    background-color: transparent;
+    border: none;
+    margin: 0rem 1rem;
+}
+header .container .box button i{
+    color: var(--border);
+    transition: all .3s ease;
+}
+header .container .box  span{
+    color: var(--border);
+
+}
+header .container .box button i:hover{
+    color: var(--gp);
+}
+header .tom{
+    display: flex;
+    justify-content: space-between;
+}
+header .tom a{
+    color: var(--gp);
+    margin: 0 1rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    color: var(--secondry);
+}
+header .tom a:hover{
+    color: var(--primary);
+}
+footer{
+    bottom: 0;
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+}
+footer .container .second
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+footer .container .second .container{
+    color: var(--gp);
+    text-decoration: none;
+}
+.b{
+color: red;
+
+}
+section{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+   
+}
+section .container1{
+ 
+ width: 70%;
+ margin-left: 8rem;
+ margin-right: 6rem;
+ font-family: 'Roboto Slab', serif;
+}
+section .single
+{
+    width: 30%;
+}
+.loading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+h2{
+    font-family: 'Roboto Slab', serif;
+    color: var(--secondry);
+    text-shadow: var(--shadow);
+    font-weight: bold;
+}
+.toolbox
+{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.toolbox div img{
+    width: 2rem;
+    height: 2rem;
+}
+.toolbox div p{
+    color: var(--light);
+    font-family: 'Roboto Slab', serif;
+    
+}
+.rome
+{
+    display: block;
+}
+@media(max-width:990px)
+{
+  header .tom
+   {
+       display: none;
+   }
+    h2
+    {
+        margin: 2rem 0;
+    }
+    header
+    {
+        flex-direction: column;
+    }
+    header .container .box
+    {
+        width: 100%;
+    }
+    header .container .box input
+    {
+        width: 100%;
+        border-radius: 50px;
+    }
+    section .container1
+    {
+        width: 90%;
+        overflow: hidden;
+    }
+}
+@media(max-width:650px)
+{
+    section .container1
+    {
+        width: 100%;
+        overflow: hidden;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
