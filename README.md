@@ -16,6 +16,9 @@ To deploy this project run
 ## Demo
 
 Insert gif or link to demo
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_Homepage.svg/1200px-Google_Homepage.svg.png" alt="image" width="400">
+
 http://googleclone123.herokuapp.com/search
 
 ## 🚀 About Me
